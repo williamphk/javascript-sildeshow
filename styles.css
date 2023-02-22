@@ -1,0 +1,3 @@
+.slide:not(:first-child) {
+  display: none;
+}

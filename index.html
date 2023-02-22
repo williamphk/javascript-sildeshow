@@ -9,6 +9,34 @@
   </head>
   <body>
     <h1>JavaScript SildeShow</h1>
+    <div class="slideshow">
+      <div class="slide">
+        <img src="images/bench.jpg" alt="bench" width="800" />
+      </div>
+
+      <div class="slide">
+        <img src="images/tower.jpg" alt="tower" width="800" />
+      </div>
+
+      <div class="slide">
+        <img src="images/tree.jpg" alt="tree" width="800" />
+      </div>
+
+      <div class="slide">
+        <img src="images/waterfall.jpg" alt="waterfall" width="800" />
+      </div>
+
+      <div class="nav">
+        <a href="#" onclick="previous()">Previous</a>
+        <a href="#" onclick="setSlide(0)">1</a>
+        <a href="#" onclick="setSlide(1)">2</a>
+        <a href="#" onclick="setSlide(2)">3</a>
+        <a href="#" onclick="setSlide(3)">4</a>
+        <a href="#" onclick="next()">Next</a>
+      </div>
+
+      <div class="counter">1/4</div>
+    </div>
     <script src="slideshow.js"></script>
   </body>
 </html>
